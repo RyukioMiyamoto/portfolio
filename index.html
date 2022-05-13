@@ -8,22 +8,129 @@
     <title>Roberto Yukio | Desenvolvedor Front-end</title>
   </head>
   <body>
-    Roberto Yukio Desenvolvedor Front-end const dados = { idade: 31, cidade:
-    "Campinas", estado: "São Paulo", inicioImediato: true, modelo: ["CLT",
-    "PJ"], nivel: "Júnior", idiomas: [ “Inglês avançado", "Espanhol básico",
-    "Japonês básico", "Português nativo", ], };Hello World!Sou um profissional
-    com mais de dez anos de experiência em atendimento ao cliente no mercado de
-    A&B, em busca de uma primeira oportunidade no incrível e desafiador cenário
-    de TI. Iniciei meu estudo no front-end de forma auto-didata em 2021 e nesse
-    período desenvolvi um leque de habilidades que inclui design em Figma, HTML5
-    semântico, CSS com SASS responsivo, Javascript ES6+ e suas possibilidades,
-    como React e Vue.js.Qualificações Javascript “from zero to expert”(69h)
-    finalizado em Jan, 2022 VueJS (22h) em progresso HTML/CSS (69h) finalizado
-    em Dez, 2021 UI Design para iniciantes (34h) finalizado em Nov, 2021 ReactJS
-    (44h) finalizado em Out, 2021 Javascript ES6+ (74h) finalizado em Jul, 2021
-    Web Design (44h) finalizado em Jun, 2021 Projetos Qual é o número? Um jogo
-    onde o desafio é acertar um número de 1 a 300 Demo Repo Stopwatch Uma
-    aplicação de cronômetro digital Demo Repo Roberto Yukio github linkedin whatsapp Hello World
-    Qualificações Projetos Contato
+    <header class="header">
+      <nav class="header__nav--desktop">
+        <ul>
+          <li><a href="#hello-world">Hello World</a></li>
+          <li><a href="#qualificacoes">Qualificações</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <h1 class="header__title">Roberto Yukio</h1>
+      <h2 class="header__subtitle mb-xs">
+        Desenvolvedor <span>Front</span>-end
+      </h2>
+      <p class="header__paragraph mb-s">
+        const dados = {<br />
+        <span></span> idade: 31,<br />
+        <span></span> cidade: "Campinas",<br />
+        <span></span> estado: "São Paulo",<br />
+        <span></span> inicioImediato: true,<br />
+        <span></span> modelo: ["CLT", "PJ"],<br />
+        <span></span> nivel: "Júnior",<br />
+        <span></span> idiomas: [<br />
+        <span></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; “Inglês avançado",<br />
+        <span></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Espanhol básico",<br />
+        <span></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Japonês básico",<br />
+        <span></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; "Português
+        nativo",<br />
+        <span></span> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],<br />
+        <span></span> };<br />
+      </p>
+
+      <a href="#projetos" class="button mb-m">Conheça meu trabalho</a>
+    </header>
+    <main>
+      <article id="hello-world" class="section">
+        <h1 class="section__title section__title--hello-world">Hello World!</h1>
+        <p class="section__paragraph">
+          Sou um profissional com mais de dez anos de experiência em atendimento
+          ao cliente no mercado de A&B, em busca de uma primeira oportunidade no
+          incrível e desafiador cenário de TI. Iniciei meu estudo no front-end
+          de forma auto-didata em 2021 e nesse período desenvolvi um leque de
+          habilidades que inclui design em Figma, HTML5 semântico, CSS com SASS
+          responsivo, Javascript ES6+ e suas possibilidades, como React e
+          Vue.js.
+        </p>
+      </article>
+      <section href="#qualificacoes" class="section">
+        <h1 class="section__title">
+          Qualificaçoes<span class="section__title--tilde">~</span>
+        </h1>
+        <div class="formation__courses">
+          <div class="formation__logo">
+            <img src="./assets/img/udemy-logo.svg" alt="" />
+            <div class="formation__course">
+              <h2>Javascript “from zero to expert”(69h)</h2>
+              <p>finalizado em Jan, 2022</p>
+            </div>
+          </div>
+          <div class="formation__logo">
+            <img src="./assets/img/origamid-logo.svg" alt="" />
+            <div class="formation__course">
+              <h2 class="formation__title">VueJS (22h)</h2>
+              <p class="formation__status">em progresso</p>
+            </div>
+            <div class="formation__course">
+              <h2 class="formation__title">HTML/CSS (69h)</h2>
+              <p class="formation__status">finalizado em Dez, 2021</p>
+            </div>
+            <div class="formation__course">
+              <h2 class="formation__title">UI Design para iniciantes (34h)</h2>
+              <p class="formation__status">finalizado em Nov, 2021</p>
+            </div>
+            <div class="formation__course">
+              <h2 class="formation__title">ReactJS (44h)</h2>
+              <p class="formation__status">finalizado em Out, 2021</p>
+            </div>
+            <div class="formation__course">
+              <h2 class="formation__title">Javascript ES6+ (74h)</h2>
+              <p class="formation__status">finalizado em Jul, 2021</p>
+            </div>
+            <div class="formation__course">
+              <h2 class="formation__title">Web Design (44h)</h2>
+              <p class="formation__status">finalizado em Jun, 2021</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projetos" class="section">
+        <h1 class="section__title">Projetos</h1>
+        <div class="project">
+          <div class="preview">
+            <span class="preview__tag">React JS</span>
+            <span class="preview__tag">Context API</span>
+          </div>
+          <h2 class="project__title">Qual é o número?</h2>
+          <p class="project__description">
+            Um jogo onde o desafio é acertar um número de 1 a 300
+          </p>
+          <div class="project__buttons">
+            <a href="" class="btn">Demo</a> <a href="" class="btn">Repo</a>
+          </div>
+        </div>
+        <div class="project">
+          <div class="preview">
+            <span class="preview__tag">Vanilla JS</span>
+          </div>
+          <h2 class="project__title">Stopwatch</h2>
+          <p class="project__description">
+            Uma aplicação de cronômetro digital
+          </p>
+          <div class="project__buttons">
+            <a href="" class="btn">Demo</a> <a href="" class="btn">Repo</a>
+          </div>
+        </div>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#hello-world">Hello World</a></li>
+          <li><a href="#qualificacoes">Qualificações</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </main>
   </body>
 </html>

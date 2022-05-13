@@ -10,25 +10,23 @@
   border: none;
   outline: none;
 }
-
-html {
-  font-size: 62.5%;
-  box-sizing: border-box;
-}
-
 a,
 a:link,
 a:visited {
   text-decoration: none;
-  font: inherit;
-  color: inherit;
+  font-family: inherit;
 }
 
 button {
   border: none;
-  font: inherit;
+  font-family: inherit;
 }
 
 img {
   display: block;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
 }

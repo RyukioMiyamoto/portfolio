@@ -1,0 +1,55 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  background-color: $main-bg;
+  color: $text-secondary;
+
+  &__title {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 80.5%;
+    letter-spacing: -0.045rem;
+    font-size: 6.4rem;
+    font-family: "Bebas Neue";
+    color: $color-primary;
+    margin: 3.2rem auto 0 auto;
+  }
+
+  &__subtitle {
+    text-align: center;
+    text-transform: lowercase;
+    letter-spacing: 80.5%;
+    letter-spacing: -0.15rem;
+    font-size: 2.4rem;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 700;
+    color: $text-primary;
+
+    & span {
+      color: $color-primary;
+    }
+  }
+
+  &__paragraph {
+    width: 20rem;
+    letter-spacing: -0.15rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: "Source Code Pro", monospace;
+    margin: 0 auto;
+
+    span {
+      margin-left: 3.2rem;
+    }
+  }
+}
+
+.header__nav--desktop {
+  display: none;
+
+  @include desktop {
+    display: block;
+  }
+}
